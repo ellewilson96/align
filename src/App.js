@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ApodContainer from './containers/ApodContainer';
+import EarthContainer from './containers/EarthContainer';
 
 class App extends Component {
   render() {
@@ -10,7 +11,12 @@ class App extends Component {
           ALIGN
         </div>
         <header className="App-header">
+          <div>
           <ApodContainer />
+          </div>
+          <div>
+          <EarthContainer />
+          </div>
         </header>
       </div>
     );
