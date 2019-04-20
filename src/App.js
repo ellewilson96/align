@@ -6,6 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="title">
+          ALIGN
+        </div>
         <header className="App-header">
           <ApodContainer />
         </header>

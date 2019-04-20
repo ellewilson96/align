@@ -1,9 +1,13 @@
+.apod-date {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
 .apod-title {
   background-color: #000000;
   color: #FFFFFF;
   font-size: 40px;
   padding-bottom: 100%;
-  padding-top: 20%;
 }
 
 .apod-container {
@@ -17,14 +21,20 @@ img {
   height: auto;
 }
 
+
 .caption {
+  background: rgba(0, 0, 0, 0.3);
+  text-align: left;
   font-family: "Tahoma", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
   position: absolute;
   color: #FFFFFF;
+  line-height: 2.2em;
   padding: 40px;
   padding-right: 50px;
   z-index: 1;
-}
-
-.apod-image {
+  width: 25%;
+  border-radius: 10px;
+  height: 100%;
 }
