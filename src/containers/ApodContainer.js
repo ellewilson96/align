@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Apod from '../components/Apod';
 import { addApod } from '../actions/index'
+import '../styles/apod.css'
 import { connect } from 'react-redux';
 
 

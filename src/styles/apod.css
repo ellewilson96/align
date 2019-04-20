@@ -1,9 +1,18 @@
+.apod-title {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 40px;
+  padding-bottom: 100%;
+  padding-top: 20%;
+}
 
 .apod-container {
   position: absolute;
+  padding: 20px;
 }
 
 img {
+  border-radius: 10px;
   max-width: 100%;
   height: auto;
 }
@@ -11,8 +20,9 @@ img {
 .caption {
   font-family: "Tahoma", sans-serif;
   position: absolute;
-  padding-top: 10px;
   color: #FFFFFF;
+  padding: 40px;
+  padding-right: 50px;
   z-index: 1;
 }
 
