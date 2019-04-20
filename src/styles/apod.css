@@ -1,0 +1,20 @@
+
+.apod-container {
+  position: absolute;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-family: "Tahoma", sans-serif;
+  position: absolute;
+  padding-top: 10px;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+.apod-image {
+}
