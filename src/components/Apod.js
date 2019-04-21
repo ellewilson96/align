@@ -8,11 +8,11 @@ class Apod extends Component {
     render() {
       return(
         <div className="apod-container">
-          <div className="caption">
+          <div className="apod">
             <div className="apod-date">
               {new Date().toDateString()}
             </div>
-            <div>
+            <div className="caption">
               {this.props.apod.explanation}
             </div>
           </div>

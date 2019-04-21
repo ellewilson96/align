@@ -1,6 +1,17 @@
+
+@media only screen and (max-width: 800px) {
+
+  .caption {
+
+  }
+
+}
+
 .apod-date {
   width: 100%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 5px 5px #191919;
 }
 
 .apod-title {
@@ -22,8 +33,7 @@ img {
   height: auto;
 }
 
-
-.caption {
+.apod {
   background: rgba(0, 0, 0, 0.3);
   text-align: left;
   font-family: "Tahoma", sans-serif;
@@ -37,5 +47,21 @@ img {
   z-index: 1;
   width: 25%;
   border-radius: 10px;
+  height: 80%;
+  overflow: scroll;
+}
+
+.caption {
+  text-align: left;
+  font-family: "Tahoma", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  position: absolute;
+  color: #FFFFFF;
+  line-height: 2.2em;
+  z-index: 1;
+  border-radius: 10px;
   height: 100%;
+  padding-right: 50px;
+  overflow: scroll;
 }
