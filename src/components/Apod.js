@@ -10,7 +10,7 @@ class Apod extends Component {
         <div className="apod-container">
           <div className="caption">
             <div className="apod-date">
-              {new Date(this.props.apod.date).toDateString()}
+              {new Date().toDateString()}
             </div>
             <div>
               {this.props.apod.explanation}
