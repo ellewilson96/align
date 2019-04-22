@@ -12,19 +12,24 @@
   margin-bottom: 20px;
   font-weight: bold;
   text-shadow: 5px 5px #191919;
+  z-index: 1;
 }
 
 .apod-title {
   background-color: #000000;
   color: #FFFFFF;
   font-size: 40px;
-  padding-bottom: 100%;
 }
 
 .apod-container {
+  background: rgba(217, 217, 217, 0.1);
   position: absolute;
-  padding: 20px;
+  top: 19%;
+  padding: 25px;
+  min-width: 100%;
+  min-height: 100%;
 }
+
 
 img {
   border-radius: 10px;
@@ -32,6 +37,28 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+
+.apod-video {
+   position: absolute;
+   max-width: 100%;
+   height: auto;
+   background-size: cover;
+   overflow: hidden;
+   padding-left: 45%;
+   padding-top: 20px;
+   border-radius: 10px;
+
+}
+
+.apod-media {
+  position: absolute;
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  min-height: 100%;
+}
+
 
 .apod {
   background: rgba(0, 0, 0, 0.3);
@@ -45,7 +72,7 @@ img {
   padding: 40px;
   padding-right: 50px;
   z-index: 1;
-  width: 25%;
+  width: 30%;
   border-radius: 10px;
   height: 80%;
   overflow: scroll;
